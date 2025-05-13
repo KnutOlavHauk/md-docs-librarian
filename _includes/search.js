@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="{{ " /search/css/search.css" | prepend: site.baseurl }}">
+
+
+<script type="text/javascript" src='{{ "/search/js/typeahead.bundle.js" | prepend: site.baseurl }}'></script>
+<script type="text/javascript" src='{{ "/search/js/fuzzyset.js" | prepend: site.baseurl }}'></script>
+<script type="text/javascript" src='{{ "/search/js/bloodhound.js" | prepend: site.baseurl }}'></script>
+<script type="text/javascript" src='{{ "/search/js/search.js" | prepend: site.baseurl }}'></script>
+<script>$('.body').append(searchBarHtml(''));</script> 
+<!-- add your own domain in searchBarHtml -->

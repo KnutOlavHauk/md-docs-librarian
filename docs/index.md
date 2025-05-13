@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Index"
+---
+
 # Table of contents
 
 - sdfsdf

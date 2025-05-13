@@ -19,11 +19,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Headers */
-h1, h2, h3, h4, h5, h6 {
-    color: #eeeeee; /* Light gray for headers */
-    margin-bottom: 15px;
-}
+
 
 /* Navigation Bar */
 .navbar {
@@ -116,5 +112,11 @@ input:focus, textarea:focus {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+/* Headers */
+#main_content_wrap h1, h2, h3, h4, h5, h6 {
+    color: #eeeeee; /* Light gray for headers */
+    margin-bottom: 15px;
 }
 

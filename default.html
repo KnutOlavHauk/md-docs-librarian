@@ -45,13 +45,16 @@
         {% if site.github.is_project_page %}
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        {% if site.collections.page_collection %}
-            <section id="collections">
-              {% for doc in site.collections.page_collection %}
-              <a class="zip_download_link" href="{{ doc.permalink }}">{ doc.name }</a>
-             
-              {% endfor %}
-            </section>
+        {% if site.page_collection %}
+            
+            <ul>
+              {% for doc in site.page_collection %}
+                <li>
+                  <a href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+
           {% endif %}
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>

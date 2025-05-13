@@ -1,0 +1,104 @@
+/* slate-theme.css */
+
+/* General Body Styling */
+body {
+    background-color: #272b30; /* Dark gray background */
+    color: #e2e2e2; /* Light gray text */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Links */
+a {
+    color: #4a90e2; /* Blue for links */
+    text-decoration: none;
+}
+a:hover {
+    color: #63a4ff; /* Lighter blue for hover */
+    text-decoration: underline;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #eeeeee; /* Light gray for headers */
+    margin-bottom: 15px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #2c313a; /* Slightly lighter dark gray */
+    padding: 10px 20px;
+    border-bottom: 2px solid #4a90e2;
+}
+.navbar a {
+    color: #e2e2e2;
+    margin: 0 15px;
+}
+.navbar a:hover {
+    color: #63a4ff;
+}
+
+/* Buttons */
+button {
+    background-color: #4a90e2; /* Blue button background */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #63a4ff; /* Lighter blue on hover */
+    color: #ffffff;
+}
+
+/* Code Blocks */
+pre, code {
+    background-color: #2c313a;
+    color: #e2e2e2;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #4a90e2;
+}
+table th {
+    background-color: #2c313a;
+    color: #e2e2e2;
+}
+
+/* Footer */
+footer {
+    background-color: #2c313a;
+    color: #e2e2e2;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Forms */
+input, textarea {
+    background-color: #2c313a;
+    color: #e2e2e2;
+    border: 1px solid #4a90e2;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+input:focus, textarea:focus {
+    border-color: #63a4ff;
+    outline: none;
+}

@@ -102,3 +102,12 @@ input:focus, textarea:focus {
     border-color: #63a4ff;
     outline: none;
 }
+
+#sidepanel{
+   
+    width: 20%;
+    height: 100%;
+    float: left;
+
+}
+

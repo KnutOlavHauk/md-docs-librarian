@@ -3,6 +3,7 @@ layout: default
 title: "2025 Goals"
 ---
 # Goals for the Product Organisation
+
 | Role                                     | Goal                                                                                                           | Cadence         | Measurement                                      |
 | :--------------------------------------- | :--------------------------------------------------------------------------------------------------------------| :-------------- | :----------------------------------------------- |
 | **SVP of Product Operations**            | Complete new product organization setup and reshaping.                                                         | One-off         | Yes/No (completed by defined deadline)           |

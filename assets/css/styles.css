@@ -110,7 +110,7 @@ input:focus, textarea:focus {
     float: left;
 
 }
-#main_content {
+#main_content_wrap {
     background-color: #ffffff; /* White background */
     color: #000000; /* Black text */
     font-family: Arial, Helvetica, sans-serif;

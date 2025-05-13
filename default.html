@@ -49,13 +49,11 @@
             
           
 <ul>
-  {% for page in site.pages %}
-    {% unless page.dir contains '_site' or page.name == '404.html' %}
-      <li>
-        <a href="{{ page.url | relative_url }}">{{ page.title | default: page.name }}</a>
-      </li>
-    {% endunless %}
-  {% endfor %}
+  {% for doc in site.docs %}
+    <li>
+      <a href="{{ doc.url }}">{{ doc.title }}</a>
+    </li>
+  {% endfor %}
 </ul>
 
 

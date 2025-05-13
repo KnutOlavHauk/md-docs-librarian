@@ -124,3 +124,8 @@ header{
     padding-left:20px
 }
 
+header h1, h2, h3, h4, h5, h6 {
+    color: #eeeeee; /* Light gray for headers */
+    margin-bottom: 15px;
+}
+

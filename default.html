@@ -48,8 +48,8 @@
         {% if site.collections.page_collection %}
             <section id="collections">
               {% for doc in site.collections.page_collection %}
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
+              <a class="zip_download_link" href="{{ doc.permalink }}">{ doc.name }</a>
+             
               {% endfor %}
             </section>
           {% endif %}

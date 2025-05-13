@@ -114,6 +114,7 @@ input:focus, textarea:focus {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 20px;
+    display: flex;
 }
 
 /* Headers */
